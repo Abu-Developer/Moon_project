@@ -22,3 +22,15 @@
   font-weight: 400;
   src: url('../fonts/barlow-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+.containers{
+  width: 1239px;
+  margin: 0 auto;
+}
+body{
+  background-image: url("../images/Bitmap.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Barlow Condensed',sans-serif;
+  font-family: 'Bellefair',serif;
+  font-family: 'Barlow',sans-serif;
+}
