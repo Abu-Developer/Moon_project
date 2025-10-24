@@ -1,24 +1,20 @@
-/* barlow-condensed-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Barlow Condensed';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/barlow-condensed-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Barlow Condensed',sans-serif;
 }
-/* bellefair-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Bellefair';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/bellefair-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+body {
+  background-image: url("./../images/zufar-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
-/* barlow-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Barlow';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/barlow-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+
+.containers{
+    width: 1415px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bellefair',serif;
 }
